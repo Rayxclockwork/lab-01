@@ -1,4 +1,4 @@
-header, div, section, article, footer{
+header, div, section, article, nav, footer{
   width:100%;
   border: black 1px solid;
   text-align: center;
@@ -6,19 +6,17 @@ header, div, section, article, footer{
 header {
   height:75px;
   line-height:75px;
-  background-color: blueviolet;
 }
 
 div{
   height:150px;
   line-height:150px;
-  background-color: aquamarine;
 }
 
 article {
   height:125px;
   line-height:125px;
-  background-color: burlywood;
+  
 }
 
 section {
@@ -26,28 +24,38 @@ section {
   line-height:250px;
   width:50%;
   float:left;
-  background-color: darkcyan;
+  
+}
+nav{
+  height:250px;
+  line-height:250px;
+  width:50%;
+  float:left;
+  
 }
 
 footer{
   height:80px;
   clear:both;
   line-height: 80px;
-  background-color: darkred;
+  
 }
 
 
 @media (min-width: 768px){
-  header, div, section, article, footer{
+  body{
     max-width:960px;
-    margin:auto;
+  }
+  header, div, section, article, nav, footer{
+    max-width:960px;
+    margin: 0 auto;
     border: black 1px solid;
     text-align: center;
   }
   header{
     height:100px;
     line-height:100px;
-    background-color: blue;
+  
   }
   
   div {
@@ -55,7 +63,7 @@ footer{
     line-height:600px;
     width:200px;
     float:left;
-    background-color: red;
+   
   }
   
   article {
@@ -63,7 +71,7 @@ footer{
     line-height:200px;
     width:380px;
     float:left;
-    background-color: blanchedalmond;
+  
   }
   
   section {
@@ -71,7 +79,15 @@ footer{
     line-height:250px;
     width:190px;
     float:left;
-    background-color: darksalmon;
+   
+  }
+
+  nav {
+    height:250px;
+    line-height:250px;
+    width:190px;
+    float:left;
+    
   }
   
   footer{
@@ -79,6 +95,6 @@ footer{
    width:760px;
    clear:none;
    line-height: 150px;
-   background-color: darkcyan;
+   
   }
 }
