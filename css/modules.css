@@ -38,28 +38,28 @@ background-color: darkred;
     background-color: rgb(74, 61, 87);
   }
   
-  div{
+  sidebar{
     background-color: rgb(47, 90, 76);
   }
   
-  article:nth-of-type(1){
+  section:nth-of-type(1) > p:nth-of-type(1){
   background-color: rgb(228, 101, 17);
   }
-  article:nth-of-type(2){
+  section:nth-of-type(1) > p:nth-of-type(2){
   background-color: rgb(187, 125, 103);
   }
   
-  section:nth-of-type(1){
+  section:nth-of-type(2)>p:nth-of-type(1){
     background-color: rgb(7, 7, 78);
   }
   
-  section:nth-of-type(2){
+  section:nth-of-type(2)>p:nth-of-type(2){
   background-color: rgb(255, 5, 5);
   }
-  nav:nth-of-type(1){
+  section:nth-of-type(2)>p:nth-of-type(3){
   background-color: rgb(80, 69, 69);
   }
-  nav:nth-of-type(2){
+  section:nth-of-type(2)>p:nth-of-type(4){
     background-color: rgb(23, 62, 133)
   }
   footer{
