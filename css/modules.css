@@ -33,9 +33,10 @@ background-color: darkred;
 
 
 
-@media (min-width: 961px){
+@media (min-width: 960px){
   header{
     background-color: rgb(74, 61, 87);
+    height:9.6%;
   }
   
   sidebar{
